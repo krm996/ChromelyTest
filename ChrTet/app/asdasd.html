@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="res">Test test test</div>
+    <script>
+        var col=document.getElementById("res");
+        var colors =["red","green","blue"];
+        var i = 0;
+        setInterval(function(){
+           col.style.color= colors[i];
+            i++;
+            if(i == 3){
+                i=0;
+            }
+        }, 200);
+    </script>
+
+    <script>
+        
+        function messageRouterResult(response) {
+            var jsonData = JSON.parse(response);
+            if (jsonData.ReadyState == 4 && jsonData.Status == 200) {
+                console.log(jsonData);
+            }
+        }
+
+        function messageRouterRun() {
+            var request = {
+                method: "GET",
+                url: "/Democontroller/Movies",
+                parameters: null,
+                postData: null
+            };
+
+            window.cefQuery({
+                request: JSON.stringify(request),
+                onSuccess: function (response) {
+                    messageRouterResult(response);
+                }, onFailure: function (err, msg) {
+                    console.log(err, msg);
+                }
+            });
+        }
+
+        messageRouterRun();
+
+    </script>
+</body>
+</html>

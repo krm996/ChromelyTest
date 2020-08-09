@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "AvMDP7mqTK3/Cb+D9YxkNscQ+ylbi5Mq3I9hr4aNAKGrXfggiFUwTcW2di7mGF1MtWgKIbJ6D9VSlcAOwwwxaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kbuyukozdemir\\source\\repos\\ChromelyTest\\ChrTet\\ChrTet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\chromely\\5.0.83\\chromely.5.0.83.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\chromely.cefglue\\5.0.83\\chromely.cefglue.5.0.83.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\chromely.core\\5.0.0.6\\chromely.core.5.0.0.6.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\kbuyukozdemir\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
